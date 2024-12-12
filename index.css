@@ -1,90 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-color: beige;
-}
-.container{
-    width: 900px;
-    height: 600px;
-    background-color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     position: fixed;
-    margin: 0px 230px 0px;
-    border-radius: 20px;
+    right: 0;
+    left: 0;
+}
+    
 
-}
-.box{
-    background-color: #4b3bff;
-    width: 400px;
-    height: 600px;
-    position: fixed;
-    border-radius: 20px 0 0 20px;
-}
-.log{
-    width: 45px;
-    height: 45px;
+nav{
     background-color: white;
-    margin-top: 220px;
-    margin-left: 35px;
-    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 }
-.box h1{
-    margin-left: 38px;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 3rem;
+    padding: 1rem 7rem;
+    
 }
-p{
-    margin-left: 38px;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-}
-#create h1{
-    margin-left: -10px;
-}
-#create p{
+
+li a{
+    text-decoration: none;
     color: black;
-    margin-inline-start: -7px;
-    font-family: Verdana;
-}
-#create{
-    margin-inline-start: 440px;
-}
-#Fullname{
-    width: 420px;
-    height: 40px;
-    border-radius: 10px;
-}
-#Fullname:hover{
-    background-color: blue;
+    font-size: 1rem;
 }
 
-#email{
-    width: 420px;
-    height: 40px;
-    border-radius: 10px;
+li a:hover{
+    color: red;
 }
-#Experience{
-    width: 420px;
-    height: 40px;
-    border-radius: 10px;
-}
-#Password{
-    width: 420px;
-    height: 40px;
-    border-radius: 10px;
-}
-#strength{
-    width: 300px;
-    border-radius: 10px;
-    height: 0px;
-}
-button{
-    width: 420px;
-    height: 40px;
-    border-radius: 10px;
-    border: 0px;
-    background-color: blue;
-    font-size: 20px;
-    color: white;
-}
-#here{
-    text-align: center;
+
+#log{
+    height: auto;
 }
